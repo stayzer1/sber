@@ -1,0 +1,321 @@
+.promo {
+  background: rgba(0, 0, 0, 0.05);
+  padding-top: 180px;
+  max-height: 800px !important;
+  height: 770px !important;
+}
+
+.promo__wrapper {
+  background: #fff;
+  border-radius: 4rem;
+  width: 100%;
+  height: 33.5rem;
+  padding: 4rem 3rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.promo__wrapper-text {
+  max-width: 39.375rem;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  position: absolute;
+  top: 4rem;
+  left: 3rem;
+}
+.promo__wrapper-text1 {
+}
+.promo__wrapper-text-title {
+  font-size: clamp(2.125rem, 1.405rem + 2.952vw, 4.063rem);
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.225rem;
+  width: 100%;
+}
+.promo__wrapper-text-price {
+  background: linear-gradient(-70deg, #03d31d 35%, #0fb6fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  will-change: transform;
+  font-size: clamp(2.125rem, 1.405rem + 2.952vw, 4.063rem);
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.225rem;
+  width: 100%;
+}
+.promo__wrapper-text-descr {
+  font-size: clamp(1rem, 0.861rem + 0.571vw, 1.375rem);
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 27rem;
+  letter-spacing: -0.03em;
+  margin-top: 1.5rem;
+  color: rgba(51, 63, 72, 0.8);
+}
+.promo__wrapper-text2 {
+}
+.promo__wrapper-text3 {
+}
+.promo__wrapper-img {
+  position: absolute;
+  top: -18%;
+  right: 30%;
+}
+.promo__wrapper-img1 {
+}
+.promo__wrapper-img2 {
+}
+.promo__wrapper-img3 {
+}
+.promo__wrapper-phone {
+  top: -18%;
+  right: 6%;
+  background-image: url(../img/promo-phone.png);
+  width: 20.125rem;
+  height: 42.3125rem;
+  display: flex;
+  justify-content: center;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+}
+.promo__wrapper-phone-items {
+  color: #fff;
+  max-width: 22.3125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin-top: 11.25rem;
+}
+.promo__wrapper-phone-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: 18.4375rem;
+  position: absolute;
+  left: 0.83125rem;
+  top: 11.25rem;
+  overflow: hidden;
+}
+.promo__wrapper-phone-item1 {
+}
+.promo__wrapper-phone-item-card {
+  padding: 1.5625rem;
+  background: linear-gradient(
+      167.89deg,
+      rgba(136, 247, 255, 0.24) 1.96%,
+      rgba(126, 255, 170, 0) 11.97%
+    ),
+    linear-gradient(
+      158.96deg,
+      rgba(140, 255, 241, 0.2) 1.72%,
+      rgba(66, 255, 232, 0.08) 26.87%,
+      rgba(126, 255, 170, 0) 56.78%
+    ),
+    linear-gradient(0deg, hsla(0, 0%, 100%, 0.08), hsla(0, 0%, 100%, 0.08));
+  backdrop-filter: blur(0.625rem);
+  -webkit-backdrop-filter: blur(0.625rem);
+  border-radius: 1.875rem;
+  max-width: 22.5rem;
+  width: 100%;
+  position: relative;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: -0.02em;
+}
+.promo-wrapper-phone-item-card-text-title {
+  font-weight: 600;
+}
+.promo__wrapper-phone-item-card-text {
+  font-size: clamp(0.75rem, 0.657rem + 0.381vw, 1rem);
+}
+.promo__wrapper-phone-item-card-dot {
+}
+.promo__wrapper-phone-item-content {
+}
+.promo__wrapper-phone-item2 {
+}
+.promo__wrapper-phone-item3 {
+}
+.promo-btn {
+  background: linear-gradient(0deg, #1c4f5f, #1c4f5f), #fff;
+  color: #fff;
+}
+.promo-btn:hover {
+  opacity: 0.9;
+}
+.promo-btn-block {
+  position: absolute;
+  bottom: 10%;
+  left: 7%;
+}
+.promo__wrapper-img3 {
+  right: 34%;
+  img {
+    width: 200px;
+  }
+}
+.promo__wrapper-img2 {
+  right: 34%;
+  img {
+    width: 260px;
+  }
+}
+.btn {
+}
+@media screen and (max-width: 1200px) {
+  .promo__wrapper-phone {
+    right: 0;
+  }
+  .promo__wrapper-img1 {
+    right: 29%;
+    img {
+      width: 300px;
+    }
+  }
+  .promo__wrapper-img2 {
+    right: 32%;
+    img {
+      width: 200px;
+    }
+  }
+  .promo__wrapper-img3 {
+    img {
+      width: 150px;
+    }
+    right: 32%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .promo {
+    padding-top: 125px;
+    height: 84rem !important;
+    max-height: 1500px !important;
+  }
+  .promo__wrapper {
+    display: block;
+    height: 25.3125rem;
+    padding: 2.625rem 2.5rem;
+    padding: 0;
+  }
+  .promo-btn-block {
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .promo__wrapper-text {
+    gap: 0;
+    background: #fff;
+    border-radius: 4rem;
+    max-width: 100%;
+    width: 100%;
+    height: 75.5rem;
+    padding: 2.625rem 2.5rem;
+    left: 0;
+    top: 0;
+  }
+  .promo__wrapper-phone {
+    width: 24.0625rem;
+    height: 49.125rem;
+    top: 19rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .promo__wrapper-img {
+    right: -0.625rem;
+    top: -4.375rem;
+  }
+  .promo__wrapper-phone-item {
+    left: 1.125rem;
+    top: 13rem;
+    max-width: 22rem;
+  }
+  .promo__wrapper-phone-item-card {
+    padding: 1.5rem;
+    max-width: 21.75rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .promo {
+    height: 55rem !important;
+  }
+  .promo__wrapper {
+    height: 46.4375rem;
+    padding: 2.5625rem 1.5rem;
+  }
+  .promo__wrapper-text {
+    height: 26.4375rem;
+    padding: 2.5625rem 1.5rem;
+  }
+  .promo__wrapper-text-title {
+    max-width: 13.125rem;
+  }
+  .promo__wrapper-text-descr {
+    text-align: right;
+    margin-top: 0.9rem;
+    line-height: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .promo__wrapper-img {
+    top: -3.75rem;
+    img {
+      width: 13.125rem;
+      height: 7.125rem;
+    }
+  }
+  .promo__wrapper-phone {
+    width: 12.5rem;
+    height: 25.1875rem;
+    top: 17rem;
+  }
+  .promo__wrapper-phone-items {
+    margin-top: 10rem;
+  }
+  .promo__wrapper-phone-item {
+    left: 0.75rem;
+    top: 5.625rem;
+    max-width: 11.125rem;
+  }
+  .promo__wrapper-phone-item-card {
+    padding: 0.5rem 0.625rem 0.5rem 1rem;
+    max-width: 12.875rem;
+  }
+  .promo__wrapper-text-price,
+  .promo__wrapper-text-title {
+    letter-spacing: -2px;
+  }
+  .promo__wrapper-img1 {
+    top: -2.6rem;
+  }
+  .promo__wrapper-img2 {
+    right: -1.25rem;
+    img {
+      height: 10rem;
+    }
+  }
+  .promo__wrapper-img3 {
+    img {
+      height: 10rem;
+    }
+  }
+  .promo__wrapper-phone-item-card-text p {
+    line-height: 18px;
+  }
+  .promo-btn {
+    padding: 15px 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .promo__wrapper-phone {
+    top: 16rem;
+  }
+}

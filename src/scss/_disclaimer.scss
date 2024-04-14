@@ -1,0 +1,33 @@
+.disclaimer {
+}
+.main-container {
+}
+.disclaimer__wrapper {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.disclaimer__text {
+  font-size: clamp(0.875rem, 0.829rem + 0.19vw, 1rem);
+  line-height: 137.5%;
+  font-weight: 400;
+  color: rgba(51, 63, 72, 0.6);
+  a {
+    color: #36ca3f;
+    border-bottom: 1px solid #36ca3f;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .disclaimer__wrapper {
+    padding-top: 2.5rem;
+    padding-bottom: 2.8125rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .disclaimer__wrapper {
+    padding-bottom: 2.625rem;
+  }
+  .disclaimer__text {
+    line-height: 1.0625rem;
+    font-weight: 400;
+  }
+}
